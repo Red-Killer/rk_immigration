@@ -3,6 +3,14 @@
 ## Description
 This resource adds an immigration system to your FiveM server. Players can interact with an NPC to call an admin and request permits. Admins can manage permits and player states.
 
+## Features
+- **NPC Interaction**: Players can call an admin NPC for assistance.
+- **Permit System**: Admins can manage permits for players.
+- **Discord Integration**: Admin calls and system logs can be sent to Discord.
+- **Customizable Configuration**: Adjust parameters in `fxmanifest.lua` and `config.lua`.
+- **Anti-Escape Mechanism**: Players attempting to escape certain areas will be teleported back.
+- **Other Dimension Handling**: Admins can handle player locations in other dimensions.
+
 ## Installation
 1. Download the repository.
 2. Place the `rk_immigration` folder into your server's resources directory.
@@ -22,14 +30,6 @@ This resource adds an immigration system to your FiveM server. Players can inter
 - `fxmanifest.lua` contains the main configuration.
 - Adjust `config.lua` to customize system parameters.
 - Edit Discord webhook settings in `fxmanifest.lua` for admin calls and logs.
-- 
-## Features
-- **NPC Interaction**: Players can call an admin NPC for assistance.
-- **Permit System**: Admins can manage permits for players.
-- **Discord Integration**: Admin calls and system logs can be sent to Discord.
-- **Customizable Configuration**: Adjust parameters in `fxmanifest.lua` and `config.lua`.
-- **Anti-Escape Mechanism**: Players attempting to escape certain areas will be teleported back.
-- **Other Dimension Handling**: Admins can handle player locations in other dimensions.
 
 ## Commands
 - `/permitmenu`: Opens the permit menu.
