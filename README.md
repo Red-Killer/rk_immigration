@@ -11,6 +11,9 @@ This resource adds an immigration system to your FiveM server. Players can inter
 - **Anti-Escape Mechanism**: Players attempting to escape certain areas will be teleported back.
 - **Other Dimension Handling**: Admins can handle player locations in other dimensions.
 
+## Screenshots
+
+
 ## Installation
 1. Download the repository.
 2. Place the `rk_immigration` folder into your server's resources directory.
