@@ -22,10 +22,6 @@ This resource adds an immigration system to your FiveM server. Players can inter
 - [oxmysql](https://github.com/overextended/oxmysql)
 - [ox_lib](https://github.com/oxDeparo/ox_lib)
 
-## Usage
-1. Interact with the NPC to call an admin.
-2. Admins can manage permits and player states through the provided commands.
-
 ## Configuration
 - `fxmanifest.lua` contains the main configuration.
 - Adjust `config.lua` to customize system parameters.
@@ -42,4 +38,4 @@ This resource adds an immigration system to your FiveM server. Players can inter
 - **Version**: 1.0.0
 
 ## Support
-For issues or questions, visit the [GitHub repository](https://github.com/Red-Killer/immigration-system).
+For issues or questions, visit the [Issues Page](https://github.com/Red-Killer/rk_immigration/issues).
