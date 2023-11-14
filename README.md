@@ -12,6 +12,9 @@ This resource adds an immigration system to your FiveM server. Players can inter
 - **Other Dimension Handling**: Admins can handle player locations in other dimensions.
 
 ## Screenshots
+![Menu1](https://github.com/Red-Killer/rk_immigration/assets/59504268/0faa560b-6dcc-447b-93aa-24fc16be639c)
+![Menu2](https://github.com/Red-Killer/rk_immigration/assets/59504268/6ff6bac8-6868-4f3e-8b04-f1a4a7e74687)
+
 
 
 ## Installation
