@@ -176,7 +176,7 @@ RegisterNetEvent('rk_immigration:server:permitAction', function(action, id)
         local target_id = getIdentifier(id, 'license')
         local target_dc_id = '<@' .. getIdentifier(id, 'discord'):gsub('discord:', '') .. '>'
 
-        local title = action == 'give' and Config.Discord.give_permit or Config.Discord.remove_permit
+        local title = action == 'give' and ts.discord.give_permit or ts.discord.remove_permit
         log(string.format(ts.discord.permit_title, title),
             string.format(ts.discord.permit_desc, admin_name, src, admin_id, admin_dc_id, target_name, id, target_id,
                 target_dc_id))
@@ -209,7 +209,7 @@ RegisterNetEvent('rk_immigration:server:changeState', function(state)
     local xName = GetPlayerName(source)
     local id = getIdentifier(source, 'license')
     local dc_id = '<@' .. getIdentifier(source, 'discord'):gsub('discord:', '') .. '>'
-    local title = state and Config.Discord.on_duty or Config.Discord.off_duty
+    local title = state and ts.discord.on_duty or ts.discord.off_duty
     log(string.format(ts.discord.admin_duty_title, title),
         string.format(ts.discord.admin_duty_desc, xName, source, id, dc_id))
 end)
