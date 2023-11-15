@@ -41,7 +41,7 @@ This resource adds an immigration system to your FiveM server. Players can inter
 
 ## Credits
 - **Author**: Red Killer
-- **Version**: 1.0.0
+- **Version**: 1.0.1
 
 ## Support
 For issues or questions, visit the [Issues Page](https://github.com/Red-Killer/rk_immigration/issues).
