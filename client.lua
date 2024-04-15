@@ -17,8 +17,11 @@ local inArea = false
 local ped = PlayerPedId()
 
 -- on player load
-RegisterNetEvent('esx:playerLoaded', function()
-    ped = PlayerPedId()
+Citizen.CreateThread(function()
+    while true do
+        Wait(2000)
+        ped = PlayerPedId()
+    end
 end)
 
 local function addMarker(coords, type, scale, color)
@@ -32,7 +35,7 @@ CreateThread(function()
         local model = GetHashKey(Config.NPC.ped)
         RequestModel(model)
         while not HasModelLoaded(model) do
-            Citizen.Wait(0)
+            Wait(0)
         end
 
         local npc = CreatePed(4, model, Config.NPC.coords, Config.NPC.heading, false, false)
